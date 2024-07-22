@@ -9,7 +9,7 @@ function isSameType(value1, value2)
 		return false;
 	}
 }
-/let value1 = prompt());
-/let value2 = prompt());
+let value1 = prompt());
+let value2 = prompt());
 
 alert(isSameType(value1, value2))

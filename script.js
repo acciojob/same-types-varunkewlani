@@ -11,4 +11,11 @@ function isSameType(value1, value2)
 }
 let value1 = prompt()
 let value2 = prompt()
-alert(isSameType(value1, value2))
+if (!isNaN(value1)) {
+    value1 = Number(value1);
+}
+if (!isNaN(value2)) {
+    value2 = Number(value2);
+}
+
+alert(isSameType(value1, value2));

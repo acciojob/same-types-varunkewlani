@@ -4,11 +4,12 @@ function isSameType(value1, value2)
 		return true;
 	else if(typeof(value1) == typeof(value2))
 		return true;
+		
 	else{
 		return false;
 	}
 }
-let value1 = parseFloat(prompt());
-let value2 = parseFloat(prompt());
+/let value1 = prompt());
+/let value2 = prompt());
 
 alert(isSameType(value1, value2))
